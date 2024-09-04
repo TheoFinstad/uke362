@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Tell Forekomster av Elementer</title>
+    <style>
+        .container {
+            margin: 20px;
+        }
+        input {
+            width: 300px;
+            margin: 5px 0;
+        }
+        button {
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tell Forekomster av Elementer</h1>
+        
+        <label for="itemInput">Skriv inn en liste med elementer (separert med komma):</label>
+        <input type="text" id="itemInput" placeholder="apple, orange, banana, apple, cherry">
+        
+        <button onclick="countOccurrences()">Tell</button>
+        
+        <ul id="resultList">
+        </ul>
+    </div>
+
+    <script src="script7.js"></script>
+</body>
+</html>
